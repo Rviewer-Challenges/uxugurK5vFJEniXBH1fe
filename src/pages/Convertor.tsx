@@ -23,6 +23,7 @@ export default function Convertor() {
                 </Flex>
 
                 <Flex direction="column">
+                    <span>is equal to</span>
                     <Button children="Swap" onClick={swap} />
                 </Flex>
 

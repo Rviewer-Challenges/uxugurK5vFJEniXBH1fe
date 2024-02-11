@@ -15,4 +15,5 @@ it("Render app", () => {
     expect(container.innerHTML).contain("under-dotted");
     expect(container.innerHTML).contain("GDP");
     expect(container.innerHTML).contain("h6");
+    expect(container.innerHTML).contain("is equal to");
 });
