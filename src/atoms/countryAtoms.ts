@@ -1,16 +1,12 @@
 import { atom } from "recoil";
-import { GdpCountry, gdpCountries } from "../data/countriesGdp";
-
-function equal<T extends V, V>(target: T) {
-    return (value: V) => value === target;
-}
+import { GdpCountry } from "../data/countriesGdp";
 
 export const selectedCountry1atom = atom<GdpCountry>({
     key: "selectedCountry1",
-    default: gdpCountries.find(equal("Russia"))
+    default: "Russia"
 })
 
 export const selectedCountry2atom = atom<GdpCountry>({
     key: "selectedCountry2",
-    default: gdpCountries.find(equal("Turkey"))
+    default: "Turkey"
 })
