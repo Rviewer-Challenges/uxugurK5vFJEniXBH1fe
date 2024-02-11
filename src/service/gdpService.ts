@@ -4,7 +4,7 @@ export const gdpService = {
     visualDivisionConstant: 5,
 
     visualize(country: GdpCountry) {
-        return "💶".repeat(Math.floor(gdpList[country] / this.visualDivisionConstant));
+        return "💵".repeat(Math.floor(gdpList[country] / this.visualDivisionConstant));
     },
 
     convert(country1: GdpCountry, country2: GdpCountry) {

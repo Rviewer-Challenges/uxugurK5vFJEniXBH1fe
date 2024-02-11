@@ -6,7 +6,7 @@ import { App } from './app.tsx';
 
 render(
     <RecoilRoot>
-        <MantineProvider>
+        <MantineProvider defaultColorScheme="dark">
             <App />
         </MantineProvider>
 
