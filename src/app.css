@@ -30,3 +30,8 @@
   font-weight: bold;
   font-size: "3rem";
 }
+
+.under-dotted {
+  text-decoration: underline;
+  text-decoration-style: dotted;
+}
