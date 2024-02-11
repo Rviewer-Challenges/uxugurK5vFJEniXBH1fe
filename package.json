@@ -9,13 +9,16 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@mantine/core": "^7.5.2",
+    "@mantine/hooks": "^7.5.2",
     "preact": "^10.19.3",
-    "primeicons": "^6.0.1",
-    "primereact": "^10.3.1",
     "recoil": "^0.7.7"
   },
   "devDependencies": {
     "@preact/preset-vite": "^2.7.0",
+    "postcss": "^8.4.35",
+    "postcss-preset-mantine": "^1.13.0",
+    "postcss-simple-vars": "^7.0.1",
     "typescript": "^5.2.2",
     "vite": "^5.0.8"
   }
