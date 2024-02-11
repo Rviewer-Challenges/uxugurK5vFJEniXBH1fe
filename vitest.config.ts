@@ -5,8 +5,9 @@ export default defineConfig({
         coverage: {
             include: ["src/**/*"],
             extension: ["ts", "tsx"],
-            exclude: ["src/main.tsx"]
-        }
+            exclude: ["src/main.tsx", "**/*.d.ts"]
+        },
+        environment: "happy-dom"
     }
 })
 
