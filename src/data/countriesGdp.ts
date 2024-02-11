@@ -159,4 +159,6 @@ export const gdpList = {
     "Zimbabwe": 21.861
 } as const;
 
+export const gdpCountries: GdpCountry[] = Object.keys(gdpList);
+
 export type GdpCountry = keyof typeof gdpList;
