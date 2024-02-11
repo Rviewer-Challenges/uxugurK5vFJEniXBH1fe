@@ -9,9 +9,11 @@
   height: 6em;
   padding: 1.5em;
 }
+
 .logo:hover {
   filter: drop-shadow(0 0 2em #646cffaa);
 }
+
 .logo.preact:hover {
   filter: drop-shadow(0 0 2em #673ab8aa);
 }
@@ -22,4 +24,9 @@
 
 .read-the-docs {
   color: #888;
+}
+
+.lg-text {
+  font-weight: bold;
+  font-size: "3rem";
 }
